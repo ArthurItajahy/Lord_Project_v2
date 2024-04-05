@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gollum (Weta Workshop)
+* source:	https://sketchfab.com/3d-models/gollum-weta-workshop-5de697f1593f4fc584563903ce09f717
+* author:	Emm (Scenario) (https://sketchfab.com/edemaistre)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gollum (Weta Workshop)" (https://sketchfab.com/3d-models/gollum-weta-workshop-5de697f1593f4fc584563903ce09f717) by Emm (Scenario) (https://sketchfab.com/edemaistre) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
