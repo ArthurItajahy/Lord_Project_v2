@@ -23,7 +23,7 @@ const Ring = ({ isMobile }) => {
     <primitive
       object={scene}
       scale={isMobile ? 0.019 : 0.025}
-      position={isMobile ? [0, -1.25, -0.0] : [0, -1.25, 0]}
+      position={isMobile ? [0, -1.25, 0] : [0, -1.25, 0]}
       rotation={[-0.01, -0.2, -0.1]}
     />
   </group>
