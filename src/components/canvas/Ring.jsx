@@ -22,8 +22,8 @@ const Ring = ({ isMobile }) => {
     <pointLight intensity={90} />
     <primitive
       object={scene}
-      scale={isMobile ? 0.7 : 0.025}
-      position={isMobile ? [0, -3, -2.2] : [0, -1.25, 0]}
+      scale={isMobile ? 0.019 : 0.025}
+      position={isMobile ? [0, -1.25, -0.0] : [0, -1.25, 0]}
       rotation={[-0.01, -0.2, -0.1]}
     />
   </group>

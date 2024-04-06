@@ -7,8 +7,44 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const style = {
+
+  sectionSubText: {
+
+    // existing styles
+
+  },
+
+  sectionHeadText: {
+
+    // existing styles
+
+  },
+
+  '@media (max-width: 600px)': {
+
+    sectionSubText: {
+
+      fontSize: '1rem',
+
+      lineHeight: '1.5rem',
+
+    },
+
+    sectionHeadText: {
+
+      fontSize: '2rem',
+
+      lineHeight: '2.5rem',
+
+    },
+
+  },
+
+};
+
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='xs:w-[190px] w-full sm:w-[250px]'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full lotr-gradient p-[20px] rounded-[20px] shadow-card'
@@ -40,7 +76,6 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}
     
-      
       
       >
         <p className={styles.sectionSubText}>"The world is changed... I feel it in the water... I smell it in the air... Much that once was is lost, for none now live who remember it..." - Galadriel</p>
