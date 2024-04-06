@@ -30,19 +30,6 @@ const Tech = () => {
           "It began with the forging of the Great Rings. Three were given to the Elves, immortal, wisest and fairest of all beings..." - Galadriel.
 
 
-          <div className='mt 10 flex flex-row flex-wrap justify-center gap-10'>
-
-            {elves.map((ring) => (
-
-              <div className='w-28 h-28' key={ring.name}>
-
-                <BallCanvas icon={ring.icon} />
-
-              </div>
-
-            ))}
-
-          </div>
         </motion.p>
       </div>
 
@@ -58,19 +45,7 @@ const Tech = () => {
 
 
       </motion.p>
-      <div className='mt-10 flex flex-row flex-wrap justify-center gap-10'>
-
-        {dwarfs.map((ring2) => (
-
-          <div className='w-28 h-28' key={ring2.name}>
-
-            <BallCanvas icon={ring2.icon} />
-
-          </div>
-
-        ))}
-
-      </div>
+    
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -83,19 +58,6 @@ const Tech = () => {
 
       </motion.p>
 
-      <div className='mt-10 flex flex-row flex-wrap justify-center gap-10'>
-
-        {mans.map((ring3) => (
-
-          <div className='w-28 h-28' key={ring3.name}>
-
-            <BallCanvas icon={ring3.icon} />
-
-          </div>
-
-        ))}
-
-      </div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className={`${styles.sectionSubText} mt-80 text-center`}

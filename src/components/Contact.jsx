@@ -77,7 +77,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>"MY PRECIOUS!! Gollum!! Gollum" <br/>- Gollum</p>
         <h3 className={styles.sectionHeadText}>Thank you for see this work.</h3>
            <p className={styles.sectionSubText}>Made By DEV.AI</p>
-         <div className='absolute inset-2 flex justify-end m-2 card-img_hover'>
+         <div className='gap-3 inset-2 absolute flex justify-end m-2 card-img_hover'>
             <div
               onClick={() => window.open('https://github.com/ArthurItajahy', "_blank")}
               className='black-gradient w-16 h-16 rounded-full flex justify-center items-center cursor-pointer'
@@ -85,10 +85,14 @@ const Contact = () => {
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-14 h-16 object-contain'
               />
             </div>
+            
+            
           </div>
+           
+
 
         {/*<form
           ref={formRef}
