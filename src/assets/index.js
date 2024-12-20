@@ -49,7 +49,7 @@ import people_middleearthcover from "./bookcover/people_middleearth.png"
 
 
 // Logo Tolkien
-import logoT from "./logo.jpg"
+import logoT from "./logo.png"
 
 // Character
 import gandalf from "./characters_profiles/gandalf.jpg"
