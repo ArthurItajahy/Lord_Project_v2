@@ -16,4 +16,4 @@ We would also like to express gratitude to the broader Tolkien fandom for their 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/lotr-memorial.git
+   git clone https://github.com/ArthurItajahy/Lord_Project_v2.git
