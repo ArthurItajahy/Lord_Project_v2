@@ -250,7 +250,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Year 3019 of the Third Age",
     points: [
-      "he second book picks up the story with the members of the Fellowship scattered across Middle-earth. Frodo and Sam continue their journey toward Mount Doom, guided by the enigmatic creature Gollum. Meanwhile, Aragorn, Legolas, and Gimli pursue the captured Merry and Pippin, leading them into the heart of the conflict against Sauron's forces."
+      "The third book, The Return of the King, follows the climactic events of the War of the Ring. Frodo and Sam inch closer to Mount Doom, enduring unimaginable trials under Gollum's unstable guidance. Aragorn, stepping into his role as the rightful heir to Gondor’s throne, leads the forces of good in a final stand against Sauron’s overwhelming armies. Meanwhile, Merry and Pippin play pivotal roles in rallying allies and influencing the tide of battle. The tale weaves together sacrifice, courage, and the enduring power of hope as Middle-earth's fate hangs in the balance."
     ],
   },
 ];
